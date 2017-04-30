@@ -142,7 +142,7 @@ def set_options():
                       default=False)
     parser.add_option("--videostop", dest="videostop",
                       action="store_true",
-                      help="start recording",
+                      help="stop recording",
                       default=False)
     parser.add_option("--mapillary", dest="mapillary",
                       action="store_true",
